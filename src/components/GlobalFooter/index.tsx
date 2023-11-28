@@ -19,46 +19,46 @@ const GlobalFooter: React.FC = () => {
   return (
     <DefaultFooter
       className="default-footer"
-      copyright={`${currentYear} 程序员鱼皮`}
+      copyright={`${currentYear} 刘明珠`}
       links={[
         {
           key: 'master',
           title: (
             <>
-              <UserOutlined /> 站长：程序员鱼皮
+              <UserOutlined /> 站长：SQL教父-刘明珠
             </>
           ),
-          href: 'https://space.bilibili.com/12890453',
+          href: '/',
           blankTarget: true,
         },
         {
           key: 'learn',
           title: (
             <>
-              <SketchOutlined /> 编程学习圈
+              <SketchOutlined /> 喜欢看电视
             </>
           ),
-          href: 'https://yupi.icu',
+          href: '/',
           blankTarget: true,
         },
         {
           key: 'github',
           title: (
             <>
-              <GithubOutlined /> 代码已开源
+              <GithubOutlined /> 梦想开挖掘机
             </>
           ),
-          href: 'https://github.com/liyupi/sql-father-frontend-public',
+          href: '/',
           blankTarget: true,
         },
         {
           key: 'feedback',
           title: (
             <>
-              <BugOutlined /> 建议反馈
+              <BugOutlined /> 喜欢范丽琴
             </>
           ),
-          href: 'https://support.qq.com/product/440825',
+          href: '/',
           blankTarget: true,
         },
       ]}

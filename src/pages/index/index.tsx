@@ -75,6 +75,7 @@ const IndexPage: React.FC = () => {
 
   // 根据 url 参数导入表
   useEffect(() => {
+    console.log("tableId: ", tableId);
     if (!tableId) {
       return;
     }
@@ -156,14 +157,7 @@ const IndexPage: React.FC = () => {
       <PageContainer
         title={
           <>
-            快速生成 SQL 和模拟数据，大幅提高开发测试效率！
-            <a
-              href="https://www.bilibili.com/video/BV1eP411N7B7/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              查看视频教程
-            </a>
+            快速生成 SQL 和模拟数据，大幅提高开发测试效率！<a>牛耳教父-刘明珠</a>
           </>
         }
         extra={

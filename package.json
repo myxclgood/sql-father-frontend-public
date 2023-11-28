@@ -9,6 +9,7 @@
     "setup": "max setup",
     "start": "npm run dev"
   },
+  "homepage": ".",
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
     "@ant-design/pro-components": "^2.3.13",

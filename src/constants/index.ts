@@ -1,4 +1,4 @@
-export const DEFAULT_NAME = 'SQL之父';
+export const DEFAULT_NAME = 'Newer SQL Join LiuMingZhu';
 
 /**
  * 字段类型列表

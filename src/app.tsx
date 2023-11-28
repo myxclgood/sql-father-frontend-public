@@ -28,7 +28,7 @@ export async function getInitialState(): Promise<InitialState> {
  */
 export const layout: RunTimeLayoutConfig = () => {
   return {
-    title: 'SQL之父',
+    title: 'Newer SQL Join LiuMingZhu',
     logo: Logo,
     menu: {
       locale: false,
@@ -50,7 +50,7 @@ const isDev = process.env.NODE_ENV === 'development';
  * https://umijs.org/docs/max/request
  */
 export const request: RequestConfig = {
-  baseURL: isDev ? 'http://localhost:8102/api' : '你的线上接口地址',
+  baseURL: isDev ? 'https://140c230f.r15.cpolar.top/api' : 'https://140c230f.r15.cpolar.top/api',
   timeout: 10000,
   withCredentials: true,
   // other axios options you want
