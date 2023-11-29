@@ -50,7 +50,7 @@ const isDev = process.env.NODE_ENV === 'development';
  * https://umijs.org/docs/max/request
  */
 export const request: RequestConfig = {
-  baseURL: isDev ? 'https://19d91170.r20.cpolar.top/api' : 'https://19d91170.r20.cpolar.top/api',
+  baseURL: isDev ? 'https://61a5324a.r19.cpolar.top/api' : 'https://61a5324a.r19.cpolar.top/api',
   timeout: 10000,
   withCredentials: true,
   // other axios options you want
